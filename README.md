@@ -152,22 +152,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 ---
 
-## 🚀 Deployment
-### **🔹 Run on Lightning AI**
-1. Install Lightning AI:
-```bash
-pip install lightning
-```
-2. Create a `lightning.yaml` config file:
-```yaml
-app: train.py
-resources:
-  - type: GPU
-```
-3. Deploy using:
-```bash
-lightning run app
-```
 
 ### **🔹 Run on Google Colab**
 - Upload `guru_video.mp4` and `guru_poses.npy`
@@ -189,6 +173,5 @@ lightning run app
 ## Contributing
 Feel free to contribute by improving the feedback mechanism, optimizing performance, or adding new features.
 
-## License
-[MIT License](LICENSE)
+
 
